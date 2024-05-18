@@ -1,8 +1,7 @@
-# Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+# Faça um Programa que converta metros para centímetros.
 while True:
-    bola=input("Digite o raio correspondente ao circulo: ")
-    if bola.isnumeric():
+    metro=input("Digite a quantidade de metros em valor numérico: ")
+    if metro.isnumeric():
         break
     print("Não é permitido o uso de letras ")
-area=(int(bola)*int(bola))*3.1415
-print("O resultado foi:", area)
+print("O valor convertido em centímetros foi: ", int(metro)*100)
